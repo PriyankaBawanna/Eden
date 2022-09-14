@@ -1,9 +1,11 @@
 import React from "react";
 import user from "../Shared/user.jpg";
 import team from "../Shared/team.png";
+import Header from "./Header";
 const Plannining = () => {
   return (
     <>
+      <Header />
       <div className="plaaningPage">
         <div className="heading">
           <span className="welcomeHeading">

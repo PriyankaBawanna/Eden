@@ -1,9 +1,11 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import Header from "./Header";
 
 const SecondPage = () => {
   return (
     <>
+      <Header />
       <div className="inputContainer">
         <div className="heading">
           <span className="welcomeHeading">
@@ -20,10 +22,6 @@ const SecondPage = () => {
             <input type="text " className="inputFiled" placeholder="Eden" />
           </div>
           <div className="fullName">
-            {/* <label className="labelName">
-                  Work space url<span className="optional"> (optional)</span>
-                </label> */}
-
             <div className="workSpaceEx ">
               <label className="labelName">
                 Work space url<span className="optional"> (optional)</span>

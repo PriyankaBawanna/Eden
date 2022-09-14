@@ -1,9 +1,9 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
-
+import Header from "./Header";
 const WelcomeFirst = () => {
   return (
     <>
+      <Header />
       <div className="inputContainer">
         <div className="heading">
           <span className="welcomeHeading">Welcome! First thing first...</span>
