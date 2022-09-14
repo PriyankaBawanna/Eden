@@ -1,0 +1,77 @@
+@import "../variable";
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fullName {
+  display: flex;
+  flex-direction: column;
+}
+.inputFrom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.welcomeHeading {
+  font-family: $font-family;
+  font-size: 2.5rem;
+}
+.paraWelcome {
+  color: $paraColor;
+}
+.inputFiled {
+  width: $InputWidth;
+  height: $InpuHeight;
+  border-style: solid;
+  border-radius: $InputRadius;
+  border-color: $borderColor;
+  margin-top: $inputFiledargin;
+  padding: 0.5rem;
+}
+.labelName {
+  margin-top: 0.2rem;
+  padding-top: 0.5rem;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  font-family: $font-family;
+  color: rgb(108, 108, 108);
+}
+.submitButton {
+  background-color: $btnColor;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: $InputWidth + 0.9rem;
+  padding: 0.8rem;
+  margin-top: $inputFiledargin + 0.9rem;
+}
+.workSpace {
+  display: flex;
+  flex-direction: row;
+  height: $InpuHeight;
+  width: $InputWidth;
+
+  margin-top: 2rem;
+
+  .workSpaceEx {
+    display: flex;
+    flex-direction: column;
+  }
+  .inputWorkSpace {
+    height: $InpuHeight;
+    width: $InputWidth;
+    padding: 0.5rem;
+    border-radius: 2px;
+  }
+}
+.optional {
+  color: $optinalURL;
+}

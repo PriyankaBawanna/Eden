@@ -1,0 +1,21 @@
+.lastPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.confirmPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  width: 25rem;
+}
+.confirmImg {
+  width: 10rem;
+  height: 7rem;
+  margin: 1rem;
+}

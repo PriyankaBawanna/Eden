@@ -1,0 +1,49 @@
+.plaaningPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.useOfEden {
+  display: flex;
+  height: $heighPlanningBox;
+  width: $widthPlanningBox;
+  margin: 0.5rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.forMyself {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 1rem;
+  height: 11.5rem;
+  width: 10.25rem;
+  border: 1px solid rgb(180, 178, 178);
+  border-radius: 5px;
+}
+.forMyself:hover {
+  border-color: rgb(140, 140, 255);
+}
+.forTeam {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 1rem;
+  height: 11.5rem;
+  width: 10.25rem;
+  border: 1px solid rgb(180, 178, 178);
+  border-radius: 5px;
+}
+.forTeam:hover {
+  border-color: rgb(140, 140, 255);
+}
+.imgUser {
+  height: 2rem;
+  width: 2rem;
+  margin-bottom: 1rem;
+}
+.para {
+  color: rgb(136, 134, 134);
+  font-family: Arial, Helvetica, sans-serif;
+}
