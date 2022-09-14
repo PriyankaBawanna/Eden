@@ -1,5 +1,5 @@
 import React from "react";
-import confirm from "../Shared/confirm.png";
+import Right from "../Shared/Right.svg";
 import Header from "../WelcomePage/Header";
 const CongratulationsPage = () => {
   return (
@@ -7,7 +7,7 @@ const CongratulationsPage = () => {
       <Header />
       <div className="lastPage">
         <div className="confirmPage">
-          <img src={confirm} className="confirmImg" />
+          <img src={Right} className="confirmImg" />
           <h3>Congratulations,Eren!</h3>
           <p className="para">
             you have completed onboarding,you can start using the Eden!
